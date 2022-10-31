@@ -27,10 +27,10 @@ Variables to be removed are those noted above: EIN and NAME. We suspect that the
 Yes, the model exceeded the target performance goal of 75%. This was an improvement over the original optimization score of 72.6% (initial model). The refined model increased accuracy to 76.1%. 
 
 #### Initial Model
-![image](Images\model1.jpg)
+![image](model1.jpg)
 
 #### Refined Model
-![image](Images\model2.jpg)
+![image](model2.jpg)
 
 #### What steps did you take to try and increase model performance?
 To improve performance, I decided to bin the "ASK_AMT" values and brought back the "NAME' column, binning them as well. There were many orgs with multiple applications, so binning by NAMES made sense for categorizing. I also increased the number of epochs from 100 to 500 as well as the number of neurons for each layer.
